@@ -14,9 +14,9 @@ export default {
 name: "FooterComp",
 data() {
     return {
-        cYear: new Date().cYeargetUTCFullYear()
+        cYear: new Date().getUTCFullYear()
     }
-},
+}
 }
 </script>
 

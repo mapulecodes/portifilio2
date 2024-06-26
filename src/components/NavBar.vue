@@ -1,7 +1,7 @@
 <template>
  <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <router-link class="navbar-brand" href="#">
+    <router-link class="navbar-brand" to="/">
         <img src="https://mapulecodes.github.io/fridayimages/images/OIP.jpg" alt="logo" class="img-fluid" loading="lazy">
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
