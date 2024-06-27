@@ -1,24 +1,29 @@
 <template>
   <div class="container">
-    <section class="row" id="landing"><h2>Home</h2>
-
+    <section class="row" id="landing">
+       <landingSection/>
     </section>
-    <section class="row" id="about"><h2>About</h2>
+    <section class="row" id="about">
     
     </section>
-    <section class="row" id="resume"><h2>Resume</h2>
+    <section class="row" id="resume">
     
     </section>
-    <section class="row" id="projects"><h2>Projects</h2></section>
-    <section class="row" id="testimonials"><h2>Testimonials</h2></section>
-    <section class="row" id="reachme"><h2>Reach Me</h2></section>
+    <section class="row" id="projects">
+    </section>
+    <section class="row" id="testimonials">
+    </section>
+    <section class="row" id="reachme">
+    </section>
   </div>
 </template>
 <script>
 
+import LandingSection from '@/components/LandingSection.vue';
 export default {
   name: 'HomeView',
   components: {
+    LandingSection
   }
 }
 </script>
