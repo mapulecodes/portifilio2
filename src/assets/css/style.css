@@ -23,8 +23,23 @@
   }
 
 /* Universal selector*/
-
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* custom variables */
+:root{
+  --primary: black;
+  --secondary: rgb(255, 255, 255);
+  --alternative: #74a57a;
+  --mainBShadow: .4vw .3vw .3vw var(--alternative);    
+}
+body{
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar{
   display: none;
 }
