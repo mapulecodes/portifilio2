@@ -15,19 +15,16 @@
 </template>
 
 <script setup>
-    import Spinner from './Spinner.vue'
-    import { computed, onMounted } from 'vue';
-    import { useStore } from 'vuex'
-    const store = useStore()
-    const about=
-        computed(() => store.state.about)
-      
+import Spinner from './Spinner.vue'
+import { computed, onMounted } from 'vue'
+import { useStore } from 'vuex'
+const store = useStore()
+const about =
+computed(() => store.state.about);
 onMounted(() => {
     store.dispatch('fetchAbout')
-    
 })
 </script>
 
 <style>
-
 </style>

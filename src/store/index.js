@@ -19,6 +19,9 @@ export default createStore({
     setJobTitle(state, value) {
       state.jobTitle = value
     },
+    setAbout(state, value) {
+      state.about = value 
+    },
     setEducation(state, value) {
       state.education = value
     },

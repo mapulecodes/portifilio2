@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="row vh-100 align-items-center">
+    <div class="row vh-100 d-md-flex d-block align-items-center">
             <div class="col">
                 <img src="https://mapulecodes.github.io/fridayimages/images/1.png" alt="profile" class="img-fluid" loading="lazy">
             </div>
