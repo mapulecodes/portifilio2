@@ -58,3 +58,10 @@ img[alt='logo']{
   display: grid;
   grid-template-rows: auto minmax(100dvh, 100%) auto;
 }
+/* media query */
+@media screen and (width < 800px) {
+  #landing.row{
+    display: block;
+    height:auto;
+  }
+}
