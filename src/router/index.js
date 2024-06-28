@@ -17,7 +17,12 @@ const routes = [
     path: '/education',
     name: 'education',
     component: () =>import('@/views/HomeView.vue')
-  }
+  },
+{
+  path: '/experiences',
+  name: 'experiences',
+  component: () =>import('@/views/HomeView.vue')
+}
 ]
 
 const router = createRouter({

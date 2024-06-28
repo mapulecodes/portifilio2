@@ -81,7 +81,7 @@ export default createStore({
      }
     },
 
-    async fetchExoeriences(context) {
+    async fetchExperiences(context) {
       try {
       let { experiences } = await (await axios.get(portfilioURL)).data
       context.commit("setExperiences", experiences)
